@@ -1,4 +1,4 @@
-# system-design-lab
+# atlas
 
 Architecture case studies, tradeoff notes, and practical system design blueprints.
 
@@ -8,9 +8,9 @@ This repo is the design notebook for the ecosystem. It exists to make architectu
 
 ## Role in the ecosystem
 
-- Upstream thinking space for `master-platform`
-- Neighbor to `distributed-systems-lab`
-- Reference point for `saas-platform` and `infrastructure-platform`
+- Upstream thinking space for `orbit`
+- Neighbor to `mesh`
+- Reference point for `saas-platform` and `nimbus`
 
 ## Status
 
@@ -24,7 +24,7 @@ Starter architecture lab with one concrete case study and a roadmap for more.
 ## Structure
 
 ```text
-system-design-lab/
+atlas/
 ├── docs/
 │   ├── principles.md
 │   └── case-studies/
@@ -41,8 +41,8 @@ Read the case studies and use them as inputs to implementation repos.
 
 ## Related repositories
 
-- `master-platform`
-- `distributed-systems-lab`
+- `orbit`
+- `mesh`
 - `saas-platform`
 
 ## Future direction

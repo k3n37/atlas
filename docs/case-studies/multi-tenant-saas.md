@@ -13,4 +13,4 @@ Build a scalable platform with workspace isolation, documents, workflows, analyt
 
 ## Why this matters
 
-This case study feeds directly into `master-platform` and `saas-platform`.
+This case study feeds directly into `orbit` and `saas-platform`.

@@ -10,7 +10,7 @@ This repo is the design notebook for the ecosystem. It exists to make architectu
 
 - Upstream thinking space for `orbit`
 - Neighbor to `mesh`
-- Reference point for `saas-platform` and `nimbus`
+- Reference point for `summit` and `nimbus`
 
 ## Status
 
@@ -43,7 +43,7 @@ Read the case studies and use them as inputs to implementation repos.
 
 - `orbit`
 - `mesh`
-- `saas-platform`
+- `summit`
 
 ## Future direction
 

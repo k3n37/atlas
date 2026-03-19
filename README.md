@@ -1,50 +1,34 @@
 # atlas
 
-Architecture case studies, tradeoff notes, and practical system design blueprints.
-
 ## Purpose
+Define system structure, service boundaries, and high-level design before implementation starts to sprawl.
 
-This repo is the design notebook for the ecosystem. It exists to make architectural reasoning visible: service boundaries, failure modes, scalability tradeoffs, and implementation paths.
+## Why it matters
+When architecture is weak, services drift, interfaces harden in the wrong places, and operational complexity shows up late.
 
-## Role in the ecosystem
+## Scope
+This repo focuses on architecture notes, design reasoning, and multi-service boundary decisions. It does not try to be an implementation repo or a generic notes dump.
 
-- Upstream thinking space for `orbit`
-- Neighbor to `mesh`
-- Reference point for `summit` and `nimbus`
+## System Role
+`atlas` is the architecture layer for the portfolio ecosystem. It frames the boundaries that later show up in service, API, and platform repos.
 
-## Status
+## System Connections
+- Depends on: requirements from product and platform repos, plus lessons from runtime behavior.
+- Feeds into: `forge`, `gateway`, `mesh`.
+- Interacts with: `summit`, `nimbus`, `orbit`.
 
-Starter architecture lab with one concrete case study and a roadmap for more.
+## Core Concepts
+- service boundaries
+- domain separation
+- interface contracts
+- tradeoff analysis
+- failure-aware design
 
-## Tech stack
+## Minimal Artifact
+`docs/case-studies/multi-tenant-saas.md` is the starter architecture note for a multi-service system.
 
-- Markdown
-- Text diagrams
+## Notes
+Architecture here is meant to stay concrete. The useful output is a clearer system shape, not abstract framework language.
 
-## Structure
-
-```text
-atlas/
-├── docs/
-│   ├── principles.md
-│   └── case-studies/
-│       └── multi-tenant-saas.md
-├── .editorconfig
-├── .gitignore
-├── README.md
-└── ROADMAP.md
-```
-
-## Getting started
-
-Read the case studies and use them as inputs to implementation repos.
-
-## Related repositories
-
-- `orbit`
-- `mesh`
-- `summit`
-
-## Future direction
-
-Add more scenario-driven case studies rather than turning this into a generic note dump.
+## Next Steps
+Add more case studies covering event flows, integration boundaries, and runtime failure scenarios.
